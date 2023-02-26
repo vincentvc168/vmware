@@ -47,3 +47,9 @@ sudo apt-get install rabbitmq-server -y --fix-missing
 # sudo apt update
 # https://launchpad.net/~rabbitmq/+archive/ubuntu/rabbitmq-erlang?field.series_filter=jammy
 
+# RabbitMQ Management GUI
+# https://www.rabbitmq.com/management.html
+# http://{node-hostname}:15672/
+# guest / guest
+rabbitmq-plugins enable rabbitmq_management
+
